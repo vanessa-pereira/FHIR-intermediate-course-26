@@ -1,0 +1,15 @@
+body {
+  background: white;
+  padding: 20px;
+  font-family: Helvetica;
+}
+
+
+.form-row {
+    background-color: #DDEFEF;
+    border: solid 1px #DDEEEE;
+    color: #336B6B;
+    padding: 10px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #fff;
+}
