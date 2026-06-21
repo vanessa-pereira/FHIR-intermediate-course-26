@@ -1,11 +1,11 @@
 # Scenarios
-[!WARNING] - TO BE reviewed
+Scenario with the most appropriate FHIR Architectural pattern.
 
 ## Scenario 1
 
 “We don’t have a FHIR/REST API server, but you can listen to our ongoing HL7 v2 pipeline and convert the messages to FHIR for your repository.”
 
-**FHIR Pattern -**FHIR Broker Adapter
+**FHIR Pattern -** FHIR Broker Adapter
 
 ## Scenario 2
 
@@ -17,7 +17,7 @@
 
 “You can use Argonaut bulk-data interface against our server for any dataset for your large dataset analysis. We support conditions, observations and patients out-of-the-box, but we can implement any specific request in two months” (this one was lying).
 
-**FHIR Pattern -** FHIR‑Based Analytical Solution
+**FHIR Pattern -** Rapid FHIR‑Based Endpoint
 
 ## Scenario 4
 
@@ -35,7 +35,7 @@
 
 Any Argonaut-compatible legacy EHR queried by a SMART on FHIR app.
 
-FHIR Pattern - Interoperability Interface
+**FHIR Pattern -** Interoperability Interface
 
 ## Scenario 7
 
@@ -47,4 +47,4 @@ Any Argonaut-compatible EHR with native FHIR-resources-based storage.
 
 “No need to use HL7 V2 ORUs. We will post the lab report as a FHIR resource directly to your FHIR API endpoint.”
 
-**FHIR Pattern -** Rapid FHIR‑Based Endpoint
+**FHIR Pattern -** FHIR‑Based Analytical Solution
